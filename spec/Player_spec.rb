@@ -1,6 +1,7 @@
 require 'rspec'
+require './lib/player'
 
-describe Player do
+describe 'Player' do
 	describe 'initialize' do
 	it 'initializes an instance of Player' do
 		test_player = Player.new('X')
